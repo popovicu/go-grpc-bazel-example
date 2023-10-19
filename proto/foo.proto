@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package popovicu_foo;
+
+service EchoService {
+  rpc DoFoo(FooRequest) returns (FooResponse) {}
+}
+
+message FooRequest {}
+
+message FooResponse {}
